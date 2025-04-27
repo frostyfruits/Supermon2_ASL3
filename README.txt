@@ -13,3 +13,6 @@ sudo systemctl reload apache2
 
 
 Creat a link from your /var/lib/asterisk/astdb.txt to /var/log/asterisk/astdb.txt
+
+sudo ln -s /var/lib/asterisk/astdb.txt /var/log/asterisk/astdb.txt
+
